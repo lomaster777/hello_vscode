@@ -1,16 +1,26 @@
 header {
-	background-color: rgba(192, 128, 128, 0.582);
+  background-color: rgba(192, 128, 128, 0.582);
 }
 
 h1 {
-	color: rgb(108, 207, 108);
+  color: #5bc95b;
 }
 
 body {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 body div {
-	font-size: 20px;
-	background: #000;
+  font-size: 20px;
+  background: #000;
+}
+
+.red {
+  color: green;
+}
+
+@media (min-width: 320px) {
+  .red {
+    color: red;
+  }
 }
