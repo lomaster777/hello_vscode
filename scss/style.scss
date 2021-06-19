@@ -1,0 +1,31 @@
+@import "_header";
+
+h1 {
+	color: rgb(91, 201, 91);
+}
+
+body {
+	font-size: 10px;
+	div {
+		font-size: 10px;
+		background: #000;
+	}
+}
+
+.block {
+	// .block__item
+
+	&__item {
+	}
+
+	// .block__polert
+
+	&__polert {
+	}
+}
+.red {
+	color: green;
+	@media (min-width: 320px) {
+		color: red;
+	}
+}
